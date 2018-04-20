@@ -1,4 +1,4 @@
-python "recur_fibo.py"
+python "ConversionToBinary.py"
 
 pause
 del "%0"
