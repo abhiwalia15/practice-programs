@@ -1,7 +1,7 @@
 #python program to find the sum of n natural numbers using recursion funciton
 
 def recur_sum(n):
-	'''a function to find the sum of n numbers'''
+	'''recursive function to find sum of n-numbers'''
 	if n<=1:
 		return 1
 	else:
