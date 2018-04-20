@@ -1,22 +1,14 @@
-num = input("Enter any number\n");
-found = 0
-
-for n in num:
-	n = int(n) 
-	print(n)
+def search(key):
+	count = 0
+	n = int(input("ENTER n")
+	for i in range(0,n+1)
+		nums = int(input())
+		if (i==nums):
+			count = 1
+	if count==1:
+		print("KEY FOUND")
+	else:
+		print("KEY NOT FOUND")
 	
-key = input("enter the key value \n")
-key = int(key)
-	
-for i in range (n,1):
-	
-	if (n==key):
-		found += 1
-		break
-	
-if (found==1):
-	print(int(key) + ' is found.')
+search(4)
 		
-else:
-	print('key not found')
-	
