@@ -1,14 +1,20 @@
-#python program to count each of vowels.
+#python program to count number of vowels in a string.
 
-my_str = input("ENTER ANY STRING")
+#string of vowels
+vowels = 'aeiou'
 
-#split the string into list
-words = my_str.split()
+#let user input any string.
+my_str = input("ENTER ANY STRING\n")
 
-#input the vowels and make is suitable for caseless comparison.
-vowels = ['a','e','i','o','u']
-vowel = vowels.casefold()
+#make it suitable for case les comparison.
+my_str = my_str.casefold()
 
-for word in words:
-	if vowel in word:
-		print(len(vowel))
+vow = 0 
+
+for my_strs in my_str:
+	for vowel in vowels:
+		if vowel in my_strs:
+			vow += 1
+			
+print(vow)
+
